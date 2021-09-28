@@ -1,0 +1,704 @@
+{
+  "quiz": {
+    "id": 12278,
+    "title": "Functions in JavaScript Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12278",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12278?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 12,
+    "points_possible": 12.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_12278"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12278/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12278/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12278/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12278/submission_versions",
+    "assignment_id": 89504,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+      "multiple_choice_question",
+      "short_answer_question",
+      "true_false_question",
+      "multiple_answers_question",
+      "matching_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 12278,
+      "id": 126502,
+      "quiz_group_id": null,
+      "assessment_question_id": 139000,
+      "position": null,
+      "question_name": "Functions: Basics",
+      "question_type": "matching_question",
+      "question_text": "<p>Match each of the concepts with the description or code block that best suits them.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></strong></p>",
+      "answers": [
+        {
+          "id": 9491,
+          "text": "Hoisting",
+          "left": "Hoisting",
+          "right": "JavaScript's ability to call functions before they appear in the code is called ___.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 3283
+        },
+        {
+          "id": 3254,
+          "text": "Anonymous Function",
+          "left": "Anonymous Function",
+          "right": "const fn = function() {   console.log(\"Yet more razzling\"); }",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 8444
+        },
+        {
+          "id": 4132,
+          "text": "Immediately Invoked Function Expression",
+          "left": "Immediately Invoked Function Expression",
+          "right": "(function(baseNumber){ return baseNumber + 3; })(2)",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5972
+        },
+        {
+          "id": 7377,
+          "text": "Function-Level Scope",
+          "left": "Function-Level Scope",
+          "right": "___ means that if a function is defined inside another function, the inner function has access to all the parameters of, as well as any variables defined in, the outer function.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4326
+        },
+        {
+          "id": 7747,
+          "text": "Closure",
+          "left": "Closure",
+          "right": "When a function \"encloses\" the function-level scope of its parent, we call it ___.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5046
+        },
+        {
+          "id": 1872,
+          "text": "Function Declaration",
+          "left": "Function Declaration",
+          "right": "function razzle() {   console.log(\"You've been razzled!\"); }",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9955
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "JavaScript's ability to call functions before they appear in the code is called ___.",
+          "match_id": 3283
+        },
+        {
+          "text": "const fn = function() {   console.log(\"Yet more razzling\"); }",
+          "match_id": 8444
+        },
+        {
+          "text": "(function(baseNumber){ return baseNumber + 3; })(2)",
+          "match_id": 5972
+        },
+        {
+          "text": "___ means that if a function is defined inside another function, the inner function has access to all the parameters of, as well as any variables defined in, the outer function.",
+          "match_id": 4326
+        },
+        {
+          "text": "When a function \"encloses\" the function-level scope of its parent, we call it ___.",
+          "match_id": 5046
+        },
+        {
+          "text": "function razzle() {   console.log(\"You've been razzled!\"); }",
+          "match_id": 9955
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126503,
+      "quiz_group_id": null,
+      "assessment_question_id": 87882,
+      "position": null,
+      "question_name": "Functions: Callbacks",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>A ____ function is a function passed into another function as an argument, which is then invoked inside the outer function.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/callback-functions?module_item_id=143567\" target=\"_blank\">Callback Functions</a></p>",
+      "answers": [
+        {
+          "id": "1549",
+          "text": "Callback",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
+        },
+        {
+          "id": "8514",
+          "text": "call back",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
+        },
+        {
+          "id": "258",
+          "text": "Call Back",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
+        },
+        {
+          "id": "6033",
+          "text": "Call back",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
+        },
+        {
+          "id": 2922,
+          "text": "callback",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126504,
+      "quiz_group_id": null,
+      "assessment_question_id": 87878,
+      "position": null,
+      "question_name": "Functions: Closure",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>A ___ gives you access to an outer function’s scope from an inner function.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "id": "2792",
+          "text": "closure",
+          "comments": "",
+          "comments_html": "<p>Nice!</p>",
+          "weight": 100
+        },
+        {
+          "id": "4479",
+          "text": "Closure",
+          "comments": "",
+          "comments_html": "<p>Nice!</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126505,
+      "quiz_group_id": null,
+      "assessment_question_id": 87879,
+      "position": null,
+      "question_name": "Functions: First Class",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>A function is a first class object.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a>, <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73915?module_item_id=143568\" target=\"_blank\">First-Class Functions</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "text": "True",
+          "weight": 100,
+          "id": 4473
+        },
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 298
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126506,
+      "quiz_group_id": null,
+      "assessment_question_id": 87873,
+      "position": null,
+      "question_name": "Functions: Hoisting",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>For hoisting to work, the function must be defined as a function declaration.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "text": "True",
+          "weight": 100,
+          "id": 7518
+        },
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 2922
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126507,
+      "quiz_group_id": null,
+      "assessment_question_id": 87874,
+      "position": null,
+      "question_name": "Functions: Hoisting",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>Function expressions are hoisted.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "True",
+          "weight": 0,
+          "id": 7028
+        },
+        {
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "text": "False",
+          "weight": 100,
+          "id": 1076
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126508,
+      "quiz_group_id": null,
+      "assessment_question_id": 87876,
+      "position": null,
+      "question_name": "Functions: Scope",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>If a function is defined inside another function, the inner function has access to...</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "id": 9608,
+          "text": "All of the outer function's parameters as well as variables defined in the outer function.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 7369,
+          "text": "Only the parameters passed into the inner function, and the variables declared within it.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Closure, <span>gives you access to an outer function’s scope from an inner function.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9164,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126509,
+      "quiz_group_id": null,
+      "assessment_question_id": 87877,
+      "position": null,
+      "question_name": "Functions: Scope",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p class=\"code-line code-line\" data-line=\"59\">Which variables does the function&nbsp;<code>inner2</code> have access to?</p>\n<div>\n<div>\n<pre><code><span>const part1 = 'hello'</span></code><br><br><code><span>function demoChain(name) {</span></code><br><code><span>  &nbsp; let part2 = 'hi'</span></code><br><code><span>  &nbsp; return function inner1() {</span></code><br><code><span>  &nbsp; &nbsp; &nbsp; let part3 = 'there'</span></code><br><code><span>  &nbsp; &nbsp; &nbsp; return function inner2() {</span></code><br><code><span>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; console.log(`${part1.toUpperCase()} ${part2} ${name}`);</span></code><br><code><span>  &nbsp; &nbsp; &nbsp; }</span></code><br><code><span>  &nbsp; }</span></code><br><code><span>}</span></code><br><br><code><span>demoChain(\"Dr. Stephen Strange\")()() </span></code><br><br><code><span>//=&gt; HELLO hi Dr. Stephen Strange<br></span></code></pre>\n</div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "id": 5865,
+          "text": "",
+          "html": "<p>part1, name, part2, part3</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 4747,
+          "text": "",
+          "html": "<p>name, part1, part3</p>",
+          "comments": "",
+          "comments_html": "<p><span>Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3073,
+          "text": "",
+          "html": "<p>part3</p>",
+          "comments": "",
+          "comments_html": "<p><span>Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well, as well as the global scope.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 5094,
+          "text": "",
+          "html": "<p>name, part3</p>",
+          "comments": "",
+          "comments_html": "<p><span>Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 6830,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126510,
+      "quiz_group_id": null,
+      "assessment_question_id": 87871,
+      "position": null,
+      "question_name": "Functions: Syntax",
+      "question_type": "short_answer_question",
+      "question_text": "<p class=\"code-line code-line\" data-line=\"4\">What will the following function return?</p>\n<pre class=\"code-line code-line\" data-line=\"6\"><code>function mySubtract (number) {\n  if (number &gt; 11) {\n    return number - 11;\n  } else {\n    return 11 - number;\n  }\n  return false\n}\n\nmySubtract(100)</code></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/review-functions?module_item_id=143563\" target=\"_blank\">Review: Functions</a></p>",
+      "answers": [
+        {
+          "id": "9737",
+          "text": "89",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126511,
+      "quiz_group_id": null,
+      "assessment_question_id": 87872,
+      "position": null,
+      "question_name": "Functions: Syntax",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>You cannot call a function before you have declared it.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Because of hoisting, it's possible to call a function before it was defined, as long as it was defined using a function declaration:</p>\n<p>&nbsp;</p>\n<pre><code>razzle(); //=&gt; \"You've been razzled!\"<br>function razzle() {<br>  console.log(\"You've been razzled!\");<br>} </code></pre>",
+          "text": "True",
+          "weight": 0,
+          "id": 1545
+        },
+        {
+          "comments": "",
+          "comments_html": "<p>Because of hoisting, it's possible to call a function before it was defined, as long as it was defined using a function declaration:</p>\n<p>&nbsp;</p>\n<pre><code>razzle(); //=&gt; \"You've been razzled!\"<br>function razzle() {<br>  console.log(\"You've been razzled!\");<br>} </code></pre>",
+          "text": "False",
+          "weight": 100,
+          "id": 9135
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126512,
+      "quiz_group_id": null,
+      "assessment_question_id": 87881,
+      "position": null,
+      "question_name": "Functions: Syntax",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Select all the ways you can write a function.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73914?module_item_id=143566\" target=\"_blank\">Arrow Functions</a>,<strong> </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued</a></p>",
+      "answers": [
+        {
+          "id": "245",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p><code><span>function foo(){ return 'bar'; }</span></code></p>"
+        },
+        {
+          "id": "6676",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p><code><span>let foo = function(){ return 'bar'; }</span></code></p>"
+        },
+        {
+          "id": "6979",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p><code><span>const foo = () =&gt; 'bar';</span></code></p>"
+        },
+        {
+          "id": "5213",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p><code><span>const foo = () =&gt; { </span></code></p>\n<p><code><span>&nbsp; &nbsp;return 'bar'; </span></code></p>\n<p><code><span>}</span></code></p>"
+        },
+        {
+          "id": "599",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the<strong> Arrow Function</strong><em> </em>source for this question. You'll get it next time.</span></p>",
+          "weight": 0.0,
+          "html": "<p><code><span>const foo =&gt; { return 'bar'; }</span></code></p>"
+        },
+        {
+          "id": "2549",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12278,
+      "id": 126513,
+      "quiz_group_id": null,
+      "assessment_question_id": 87883,
+      "position": null,
+      "question_name": "Functions: Syntax",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>You should never pass a function as an argument.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\" target=\"_blank\">Functions: Continued, </a><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/callback-functions?module_item_id=143567\" target=\"_blank\">Callback Functions</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "True",
+          "weight": 0,
+          "id": 2635
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 100,
+          "id": 13
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
