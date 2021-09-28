@@ -1,7 +1,7 @@
 ---
 id: 12278
 course_id: 3297
-repo: phase-1-quiz-functions-in-javascript-quiz
+repo: phase-1-quiz-functions-in-javascript
 ---
 
 # Functions in JavaScript Quiz
