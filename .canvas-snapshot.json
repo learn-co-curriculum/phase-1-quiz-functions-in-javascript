@@ -4,7 +4,7 @@
     "title": "Functions in JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12278",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12278?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-functions-in-javascript\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-functions-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-functions-in-javascript\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-functions-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -103,58 +103,58 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3126,
+          "id": "3126",
           "text": "Hoisting",
           "left": "Hoisting",
-          "right": "JavaScript's ability to call functions before they appear in the code is called ___.",
+          "right": "In JavaScript, the ability to place a function call before the function definition is due to ___.",
           "comments": "",
           "comments_html": "",
-          "match_id": 1959
+          "match_id": 8659
         },
         {
-          "id": 438,
+          "id": "438",
           "text": "Anonymous Function",
           "left": "Anonymous Function",
           "right": "const fn = function() {   console.log(\"Yet more razzling\"); }",
           "comments": "",
           "comments_html": "",
-          "match_id": 7618
+          "match_id": 2811
         },
         {
-          "id": 8813,
+          "id": "8813",
           "text": "Immediately Invoked Function Expression",
           "left": "Immediately Invoked Function Expression",
           "right": "(function(baseNumber){ return baseNumber + 3; })(2)",
           "comments": "",
           "comments_html": "",
-          "match_id": 1784
+          "match_id": 8650
         },
         {
-          "id": 7346,
+          "id": "7346",
           "text": "Function-Level Scope",
           "left": "Function-Level Scope",
-          "right": "___ means that if a function is defined inside another function, the inner function has access to all the parameters of, as well as any variables defined in, the outer function.",
+          "right": "___ means that the variables belonging to a function can only be accessed from inside the function.",
           "comments": "",
           "comments_html": "",
-          "match_id": 856
+          "match_id": 2347
         },
         {
-          "id": 8993,
+          "id": "8993",
           "text": "Closure",
           "left": "Closure",
-          "right": "When a function \"encloses\" the function-level scope of its parent, we call it ___.",
+          "right": "When a function \"encloses\" the function-level scope of its parent, we call it a ___.",
           "comments": "",
           "comments_html": "",
-          "match_id": 8941
+          "match_id": 645
         },
         {
-          "id": 6105,
+          "id": "6105",
           "text": "Function Declaration",
           "left": "Function Declaration",
           "right": "function razzle() {   console.log(\"You've been razzled!\"); }",
           "comments": "",
           "comments_html": "",
-          "match_id": 9418
+          "match_id": 1907
         }
       ],
       "variables": null,
@@ -163,28 +163,28 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "JavaScript's ability to call functions before they appear in the code is called ___.",
-          "match_id": 1959
+          "text": "In JavaScript, the ability to place a function call before the function definition is due to ___.",
+          "match_id": 8659
         },
         {
           "text": "const fn = function() {   console.log(\"Yet more razzling\"); }",
-          "match_id": 7618
+          "match_id": 2811
         },
         {
           "text": "(function(baseNumber){ return baseNumber + 3; })(2)",
-          "match_id": 1784
+          "match_id": 8650
         },
         {
-          "text": "___ means that if a function is defined inside another function, the inner function has access to all the parameters of, as well as any variables defined in, the outer function.",
-          "match_id": 856
+          "text": "___ means that the variables belonging to a function can only be accessed from inside the function.",
+          "match_id": 2347
         },
         {
-          "text": "When a function \"encloses\" the function-level scope of its parent, we call it ___.",
-          "match_id": 8941
+          "text": "When a function \"encloses\" the function-level scope of its parent, we call it a ___.",
+          "match_id": 645
         },
         {
           "text": "function razzle() {   console.log(\"You've been razzled!\"); }",
-          "match_id": 9418
+          "match_id": 1907
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -207,35 +207,35 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/callback-functions?module_item_id=143567\">Callback Functions</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 956,
+          "id": "956",
           "text": "Callback",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "weight": 100
         },
         {
-          "id": 5305,
+          "id": "5305",
           "text": "call back",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "weight": 100
         },
         {
-          "id": 5964,
+          "id": "5964",
           "text": "Call Back",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "weight": 100
         },
         {
-          "id": 4372,
+          "id": "4372",
           "text": "Call back",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "weight": 100
         },
         {
-          "id": 9585,
+          "id": "9585",
           "text": "callback",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
@@ -267,14 +267,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 875,
+          "id": "875",
           "text": "closure",
           "comments": "",
           "comments_html": "<p>Nice!</p>",
           "weight": 100
         },
         {
-          "id": 2976,
+          "id": "2976",
           "text": "Closure",
           "comments": "",
           "comments_html": "<p>Nice!</p>",
@@ -537,7 +537,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/review-functions?module_item_id=143563\">Review: Functions</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3543,
+          "id": "3543",
           "text": "89",
           "comments": "",
           "comments_html": "",
@@ -608,7 +608,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73914?module_item_id=143566\">Arrow Functions</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73913?module_item_id=143565\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3769,
+          "id": "3769",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -616,7 +616,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">foo</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "id": 4537,
+          "id": "4537",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -624,7 +624,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">foo</span> <span class=\"o\">=</span> <span class=\"kd\">function</span> <span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"p\">};</span>\n</code></pre></div>"
         },
         {
-          "id": 5358,
+          "id": "5358",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -632,7 +632,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=</span> <span class=\"p\">()</span> <span class=\"o\">=&gt;</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 2750,
+          "id": "2750",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -640,7 +640,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=</span> <span class=\"p\">()</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"p\">};</span>\n</code></pre></div>"
         },
         {
-          "id": 7386,
+          "id": "7386",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the <strong>Arrow Function</strong> source for this question. You'll get\nit next time.</p>",
@@ -648,7 +648,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span> <span class=\"k\">return</span> <span class=\"dl\">'</span><span class=\"s1\">bar</span><span class=\"dl\">'</span><span class=\"p\">;</span> <span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "id": 2972,
+          "id": "2972",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
