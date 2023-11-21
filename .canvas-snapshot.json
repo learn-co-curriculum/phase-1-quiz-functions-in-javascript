@@ -85,60 +85,72 @@
       "id": 366159,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 632019,
+      "position": null,
       "question_name": "Functions: Basics",
       "question_type": "matching_question",
-      "question_text": "Match each of the concepts with the description or code block that best suits\nthem.",
+      "question_text": "<p>Match each of the concepts with the description or code block that best suits\nthem.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "3126",
           "text": "Hoisting",
-          "id": 3126,
-          "match_id": 8659,
           "left": "Hoisting",
-          "right": "In JavaScript, the ability to place a function call before the function definition is due to ___."
+          "right": "In JavaScript, the ability to place a function call before the function definition is due to ___.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 966
         },
         {
+          "id": "438",
           "text": "Anonymous Function",
-          "id": 438,
-          "match_id": 2811,
           "left": "Anonymous Function",
-          "right": "const fn = function() {   console.log(\"Yet more razzling\"); }"
+          "right": "const fn = function() {   console.log(\"Yet more razzling\"); }",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 7159
         },
         {
+          "id": "8813",
           "text": "Immediately Invoked Function Expression",
-          "id": 8813,
-          "match_id": 8650,
           "left": "Immediately Invoked Function Expression",
-          "right": "(function(baseNumber){ return baseNumber + 3; })(2)"
+          "right": "(function(baseNumber){ return baseNumber + 3; })(2)",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 7390
         },
         {
+          "id": "7346",
           "text": "Function-Level Scope",
-          "id": 7346,
-          "match_id": 2347,
           "left": "Function-Level Scope",
-          "right": "___ means that the variables belonging to a function can only be accessed from inside the function."
+          "right": "___ means that the variables belonging to a function can only be accessed from inside the function.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 111
         },
         {
+          "id": "8993",
           "text": "Closure",
-          "id": 8993,
-          "match_id": 645,
           "left": "Closure",
-          "right": "When a function \"encloses\" the function-level scope of its parent, we call it a ___."
+          "right": "When a function \"encloses\" the function-level scope of its parent, we call it a ___.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9221
         },
         {
+          "id": "6105",
           "text": "Function Declaration",
-          "id": 6105,
-          "match_id": 1907,
           "left": "Function Declaration",
-          "right": "function razzle() {   console.log(\"You've been razzled!\"); }"
+          "right": "function razzle() {   console.log(\"You've been razzled!\"); }",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1210
         }
       ],
       "variables": null,
@@ -147,38 +159,38 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "match_id": 8659,
-          "text": "In JavaScript, the ability to place a function call before the function definition is due to ___."
+          "text": "In JavaScript, the ability to place a function call before the function definition is due to ___.",
+          "match_id": 966
         },
         {
-          "match_id": 2811,
-          "text": "const fn = function() {   console.log(\"Yet more razzling\"); }"
+          "text": "const fn = function() {   console.log(\"Yet more razzling\"); }",
+          "match_id": 7159
         },
         {
-          "match_id": 8650,
-          "text": "(function(baseNumber){ return baseNumber + 3; })(2)"
+          "text": "(function(baseNumber){ return baseNumber + 3; })(2)",
+          "match_id": 7390
         },
         {
-          "match_id": 2347,
-          "text": "___ means that the variables belonging to a function can only be accessed from inside the function."
+          "text": "___ means that the variables belonging to a function can only be accessed from inside the function.",
+          "match_id": 111
         },
         {
-          "match_id": 645,
-          "text": "When a function \"encloses\" the function-level scope of its parent, we call it a ___."
+          "text": "When a function \"encloses\" the function-level scope of its parent, we call it a ___.",
+          "match_id": 9221
         },
         {
-          "match_id": 1907,
-          "text": "function razzle() {   console.log(\"You've been razzled!\"); }"
+          "text": "function razzle() {   console.log(\"You've been razzled!\"); }",
+          "match_id": 1210
         }
       ],
-      "matching_answer_incorrect_matches": null
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 366160,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
+      "assessment_question_id": 632017,
+      "position": null,
       "question_name": "Functions: Callbacks",
       "question_type": "short_answer_question",
       "question_text": "<p>A ____ function is a function passed into another function as an argument,\nwhich is then invoked inside the outer function. For example:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">greet</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">fn</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"nx\">fn</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">greet</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Ada Lovelace</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">Hello there, </span><span class=\"dl\">\"</span> <span class=\"o\">+</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
@@ -186,39 +198,44 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Callback Functions",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/callback-functions?module_item_id=627478\">Callback Functions</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "956",
           "text": "Callback",
-          "weight": 100,
-          "comments": "Correct!",
-          "id": 956
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
         },
         {
+          "id": "5305",
           "text": "call back",
-          "weight": 100,
-          "comments": "Correct!",
-          "id": 5305
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
         },
         {
+          "id": "5964",
           "text": "Call Back",
-          "weight": 100,
-          "comments": "Correct!",
-          "id": 5964
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
         },
         {
+          "id": "4372",
           "text": "Call back",
-          "weight": 100,
-          "comments": "Correct!",
-          "id": 4372
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
         },
         {
+          "id": "9585",
           "text": "callback",
-          "weight": 100,
-          "comments": "Correct!",
-          "id": 9585
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -232,8 +249,8 @@
       "id": 366161,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 632022,
+      "position": null,
       "question_name": "Functions: Closure",
       "question_type": "short_answer_question",
       "question_text": "<p>A ___ gives you access to an outer function’s scope from an inner function.</p>\n\n<p>For example:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">outerFn</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"kd\">let</span> <span class=\"nx\">countCalls</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"p\">;</span>\n  <span class=\"k\">return</span> <span class=\"kd\">function</span> <span class=\"nx\">innerFn</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"nx\">countCalls</span><span class=\"o\">++</span><span class=\"p\">;</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">countCalls</span><span class=\"p\">);</span>\n  <span class=\"p\">};</span>\n<span class=\"p\">}</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">innerFn</span> <span class=\"o\">=</span> <span class=\"nx\">outerFn</span><span class=\"p\">();</span>\n<span class=\"nx\">innerFn</span><span class=\"p\">();</span>\n<span class=\"c1\">// =&gt; 1</span>\n<span class=\"nx\">innerFn</span><span class=\"p\">();</span>\n<span class=\"c1\">// =&gt; 2</span>\n</code></pre></div>",
@@ -241,21 +258,23 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "875",
           "text": "closure",
-          "weight": 100,
-          "comments": "Nice!",
-          "id": 875
+          "comments": "",
+          "comments_html": "<p>Nice!</p>",
+          "weight": 100
         },
         {
+          "id": "2976",
           "text": "Closure",
-          "weight": 100,
-          "comments": "Nice!",
-          "id": 2976
+          "comments": "",
+          "comments_html": "<p>Nice!</p>",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -269,32 +288,32 @@
       "id": 366162,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
+      "assessment_question_id": 632018,
+      "position": null,
       "question_name": "Functions: First Class",
       "question_type": "true_false_question",
-      "question_text": "A function is a first class object.",
+      "question_text": "<p>A function is a first class object.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: ContinuedFirst-Class Functions",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li><li><a href=\"/courses/7550/assignments/263241?module_item_id=627479\">First-Class Functions</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_2373",
-          "id": 2373,
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
           "text": "True",
-          "comments": "Correct!"
+          "weight": 100,
+          "id": 2373
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_685",
-          "id": 685,
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "False",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "weight": 0,
+          "id": 685
         }
       ],
       "variables": null,
@@ -308,8 +327,8 @@
       "id": 366163,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 5,
+      "assessment_question_id": 632016,
+      "position": null,
       "question_name": "Functions: Hoisting",
       "question_type": "true_false_question",
       "question_text": "<p>For hoisting to work, the function must be defined as a function declaration.</p>\n\n<p>For example:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"c1\">// Hoisting</span>\n<span class=\"nx\">willItHoist</span><span class=\"p\">();</span>\n\n<span class=\"c1\">// Function declaration</span>\n<span class=\"kd\">function</span> <span class=\"nx\">willItHoist</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">You tell me!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
@@ -317,23 +336,23 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_9174",
-          "id": 9174,
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
           "text": "True",
-          "comments": "Correct!"
+          "weight": 100,
+          "id": 9174
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_9643",
-          "id": 9643,
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "False",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "weight": 0,
+          "id": 9643
         }
       ],
       "variables": null,
@@ -347,8 +366,8 @@
       "id": 366164,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 6,
+      "assessment_question_id": 632025,
+      "position": null,
       "question_name": "Functions: Hoisting",
       "question_type": "true_false_question",
       "question_text": "<p>Function expressions are hoisted.</p>\n\n<p>For example:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"c1\">// Hoisting</span>\n<span class=\"nx\">willItHoist</span><span class=\"p\">();</span>\n\n<span class=\"c1\">// Function expression</span>\n<span class=\"kd\">const</span> <span class=\"nx\">willItHoist</span> <span class=\"o\">=</span> <span class=\"kd\">function</span> <span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">You tell me!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">};</span>\n</code></pre></div>",
@@ -356,23 +375,23 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6914",
-          "id": 6914,
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "True",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "weight": 0,
+          "id": 6914
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_2833",
-          "id": 2833,
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
           "text": "False",
-          "comments": "Correct!"
+          "weight": 100,
+          "id": 2833
         }
       ],
       "variables": null,
@@ -386,8 +405,8 @@
       "id": 366165,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 7,
+      "assessment_question_id": 632020,
+      "position": null,
       "question_name": "Functions: Scope",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Given the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">outerFn</span><span class=\"p\">(</span><span class=\"nx\">outerParam</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"kd\">let</span> <span class=\"nx\">outerVar</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"p\">;</span>\n  <span class=\"k\">return</span> <span class=\"kd\">function</span> <span class=\"nx\">innerFn</span><span class=\"p\">(</span><span class=\"nx\">innerParam</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"kd\">let</span> <span class=\"nx\">innerVar</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"p\">;</span>\n    <span class=\"c1\">// etc</span>\n  <span class=\"p\">};</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>The <code>innerFn</code> function has access to...</p>",
@@ -395,33 +414,33 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_2234",
-          "id": 2234,
-          "text": "All of the outer function's parameters as well as variables defined in the outer function.",
-          "html": "All of the outer function's parameters as well as variables defined in the outer\nfunction."
+          "id": 9834,
+          "text": "",
+          "html": "<p>All of the outer function's parameters as well as variables defined in the outer\nfunction.</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_9474",
-          "id": 9474,
-          "text": "Only the parameters passed into the inner function, and the variables declared within it.",
-          "html": "Only the parameters passed into the inner function, and the variables declared\nwithin it.",
-          "comments": "Because of JavaScript's scope rules, the inner function has access to the outer function's scope from an inner function.",
-          "comments_html": "Because of JavaScript's scope rules, the inner function has access to the\nouter function's scope from an inner function."
+          "id": 3280,
+          "text": "",
+          "html": "<p>Only the parameters passed into the inner function, and the variables declared\nwithin it.</p>",
+          "comments": "",
+          "comments_html": "<p>Because of JavaScript's scope rules, the inner function has access to the outer\nfunction's scope from an inner function.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2317",
-          "id": 2317,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 9905,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -435,8 +454,8 @@
       "id": 366166,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 8,
+      "assessment_question_id": 632021,
+      "position": null,
       "question_name": "Functions: Scope",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Which variables does the function <code>inner2</code> have access to?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">part1</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">hello</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">demoChain</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"kd\">let</span> <span class=\"nx\">part2</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">hi</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n  <span class=\"k\">return</span> <span class=\"kd\">function</span> <span class=\"nx\">inner1</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"kd\">let</span> <span class=\"nx\">part3</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">there</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n    <span class=\"k\">return</span> <span class=\"kd\">function</span> <span class=\"nx\">inner2</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n      <span class=\"c1\">// what variables are accessible here?</span>\n    <span class=\"p\">};</span>\n  <span class=\"p\">};</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">demoChain</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Dr. Stephen Strange</span><span class=\"dl\">\"</span><span class=\"p\">)()();</span>\n</code></pre></div>",
@@ -444,53 +463,49 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_7799",
-          "id": 7799,
-          "text": "part1, name, part2, part3",
-          "html": "<code>part1</code>, <code>name</code>, <code>part2</code>, <code>part3</code>",
-          "comments": "Correct! Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well.",
-          "comments_html": "Correct! Because of JavaScript's scope rules, the innermost function can\naccess variables from outer functions' scope as well."
+          "id": 2058,
+          "text": "",
+          "html": "<p><code>part1</code>, <code>name</code>, <code>part2</code>, <code>part3</code></p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Because of JavaScript's scope rules, the innermost function can access\nvariables from outer functions' scope as well.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4545",
-          "id": 4545,
-          "text": "name, part1, part3",
-          "html": "<code>name</code>, <code>part1</code>, <code>part3</code>",
-          "comments": "Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well.",
-          "comments_html": "Because of JavaScript's scope rules, the innermost function can access variables\nfrom outer functions' scope as well."
+          "id": 4719,
+          "text": "",
+          "html": "<p><code>name</code>, <code>part1</code>, <code>part3</code></p>",
+          "comments": "",
+          "comments_html": "<p>Because of JavaScript's scope rules, the innermost function can access variables\nfrom outer functions' scope as well.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_1905",
-          "id": 1905,
-          "text": "part3",
-          "html": "<code>part3</code>",
-          "comments": "Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well, as well as the global scope.",
-          "comments_html": "Because of JavaScript's scope rules, the innermost function can access variables\nfrom outer functions' scope as well, as well as the global scope."
+          "id": 3575,
+          "text": "",
+          "html": "<p><code>part3</code></p>",
+          "comments": "",
+          "comments_html": "<p>Because of JavaScript's scope rules, the innermost function can access variables\nfrom outer functions' scope as well, as well as the global scope.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6170",
-          "id": 6170,
-          "text": "name, part3",
-          "html": "<code>name</code>, <code>part3</code>",
-          "comments": "Because of JavaScript's scope rules, the innermost function can access variables from outer functions' scope as well.",
-          "comments_html": "Because of JavaScript's scope rules, the innermost function can access variables\nfrom outer functions' scope as well."
+          "id": 9355,
+          "text": "",
+          "html": "<p><code>name</code>, <code>part3</code></p>",
+          "comments": "",
+          "comments_html": "<p>Because of JavaScript's scope rules, the innermost function can access variables\nfrom outer functions' scope as well.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_1253",
-          "id": 1253,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 5295,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -504,8 +519,8 @@
       "id": 366167,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 9,
+      "assessment_question_id": 632015,
+      "position": null,
       "question_name": "Functions: Syntax",
       "question_type": "short_answer_question",
       "question_text": "<p>What will the following function return?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">mySubtract</span><span class=\"p\">(</span><span class=\"nx\">number</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">number</span> <span class=\"o\">&gt;</span> <span class=\"mi\">11</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"nx\">number</span> <span class=\"o\">-</span> <span class=\"mi\">11</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span> <span class=\"k\">else</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"mi\">11</span> <span class=\"o\">-</span> <span class=\"nx\">number</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n  <span class=\"k\">return</span> <span class=\"kc\">false</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">mySubtract</span><span class=\"p\">(</span><span class=\"mi\">100</span><span class=\"p\">);</span>\n</code></pre></div>",
@@ -513,15 +528,16 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Review: Functions",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/review-functions?module_item_id=627473\">Review: Functions</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "3543",
           "text": "89",
-          "weight": 100,
           "comments": "",
-          "id": 3543
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -535,34 +551,32 @@
       "id": 366168,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 10,
+      "assessment_question_id": 632024,
+      "position": null,
       "question_name": "Functions: Syntax",
       "question_type": "true_false_question",
-      "question_text": "You cannot call a function before you have declared it.",
+      "question_text": "<p>You cannot call a function before you have declared it.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8434",
-          "id": 8434,
+          "comments": "",
+          "comments_html": "<p>Because of hoisting, it's possible to call a function before it was defined, as\nlong as it was defined using a function declaration:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">razzle</span><span class=\"p\">();</span> <span class=\"c1\">//=&gt; \"You've been razzled!\"</span>\n<span class=\"kd\">function</span> <span class=\"nx\">razzle</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">You've been razzled!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "text": "True",
-          "comments": "Because of hoisting, it's possible to call a function before it was defined, as long as it was defined using a function declaration: razzle(); //= \"You've been razzled!\" function razzle() { console.log(\"You've been razzled!\"); }",
-          "comments_html": "<p>Because of hoisting, it's possible to call a function before it was defined, as\nlong as it was defined using a function declaration:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">razzle</span><span class=\"p\">();</span> <span class=\"c1\">//=&gt; \"You've been razzled!\"</span>\n<span class=\"kd\">function</span> <span class=\"nx\">razzle</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">You've been razzled!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
+          "weight": 0,
+          "id": 8434
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_7235",
-          "id": 7235,
+          "comments": "",
+          "comments_html": "<p>Because of hoisting, it's possible to call a function before it was defined, as\nlong as it was defined using a function declaration:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">razzle</span><span class=\"p\">();</span> <span class=\"c1\">//=&gt; \"You've been razzled!\"</span>\n<span class=\"kd\">function</span> <span class=\"nx\">razzle</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">You've been razzled!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "text": "False",
-          "comments": "Because of hoisting, it's possible to call a function before it was defined, as long as it was defined using a function declaration: razzle(); //= \"You've been razzled!\" function razzle() { console.log(\"You've been razzled!\"); }",
-          "comments_html": "<p>Because of hoisting, it's possible to call a function before it was defined, as\nlong as it was defined using a function declaration:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">razzle</span><span class=\"p\">();</span> <span class=\"c1\">//=&gt; \"You've been razzled!\"</span>\n<span class=\"kd\">function</span> <span class=\"nx\">razzle</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">You've been razzled!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
+          "weight": 100,
+          "id": 7235
         }
       ],
       "variables": null,
@@ -576,63 +590,66 @@
       "id": 366169,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 11,
+      "assessment_question_id": 632014,
+      "position": null,
       "question_name": "Functions: Syntax",
       "question_type": "multiple_answers_question",
-      "question_text": "Select all the ways you can write a function.",
+      "question_text": "<p>Select all the ways you can write a function.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Arrow FunctionsFunctions: Continued",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263227?module_item_id=627477\">Arrow Functions</a></li><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_3769",
-          "id": 3769,
-          "text": "function foo() { return \"bar\"; }",
+          "id": "3769",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">foo</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_4537",
-          "id": 4537,
-          "text": "let foo = function () { return \"bar\"; };",
+          "id": "4537",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">foo</span> <span class=\"o\">=</span> <span class=\"kd\">function</span> <span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"p\">};</span>\n</code></pre></div>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_5358",
-          "id": 5358,
-          "text": "const foo = () = \"bar\";",
+          "id": "5358",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=</span> <span class=\"p\">()</span> <span class=\"o\">=&gt;</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_2750",
-          "id": 2750,
-          "text": "const foo = () = { return \"bar\"; };",
+          "id": "2750",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=</span> <span class=\"p\">()</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"dl\">\"</span><span class=\"s2\">bar</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"p\">};</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7386",
-          "id": 7386,
-          "text": "const foo = { return 'bar'; }",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span> <span class=\"k\">return</span> <span class=\"dl\">'</span><span class=\"s1\">bar</span><span class=\"dl\">'</span><span class=\"p\">;</span> <span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "Be sure to study the Arrow Function source for this question. You'll get it next time.",
-          "comments_html": "Be sure to study the <strong>Arrow Function</strong> source for this question. You'll get\nit next time."
+          "id": "7386",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the <strong>Arrow Function</strong> source for this question. You'll get it\nnext time.</p>",
+          "weight": 0.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">foo</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span> <span class=\"k\">return</span> <span class=\"dl\">'</span><span class=\"s1\">bar</span><span class=\"dl\">'</span><span class=\"p\">;</span> <span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2972",
-          "id": 2972,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 6952,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -646,34 +663,32 @@
       "id": 366170,
       "quiz_id": 53433,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 12,
+      "assessment_question_id": 632023,
+      "position": null,
       "question_name": "Functions: Syntax",
       "question_type": "true_false_question",
-      "question_text": "You should never pass a function as an argument.",
+      "question_text": "<p>You should never pass a function as an argument.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Functions: ContinuedCallback Functions",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263243?module_item_id=627475\">Functions: Continued</a></li><li><a href=\"/courses/7550/pages/callback-functions?module_item_id=627478\">Callback Functions</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6339",
-          "id": 6339,
+          "comments": "",
+          "comments_html": "<p>Being able to pass a function as a <strong>callback</strong> to another function is an\nimportant feature of JavaScript.</p>",
           "text": "True",
-          "comments": "Being able to pass a function as a callback to another function is an important feature of JavaScript.",
-          "comments_html": "Being able to pass a function as a <strong>callback</strong> to another function is\nan important feature of JavaScript."
+          "weight": 0,
+          "id": 6339
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_6696",
-          "id": 6696,
+          "comments": "",
+          "comments_html": "<p>Correct! Being able to pass a function as a <strong>callback</strong> to another function is\nan important feature of JavaScript.</p>",
           "text": "False",
-          "comments": "Correct! Being able to pass a function as a callback to another function is an important feature of JavaScript.",
-          "comments_html": "Correct! Being able to pass a function as a <strong>callback</strong> to another function\nis an important feature of JavaScript."
+          "weight": 100,
+          "id": 6696
         }
       ],
       "variables": null,
