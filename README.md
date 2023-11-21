@@ -1,6 +1,6 @@
 ---
-id: 42562
-course_id: 6638
+id: 53433
+course_id: 7550
 repo: phase-1-quiz-functions-in-javascript
 ---
 
